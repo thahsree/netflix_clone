@@ -5,9 +5,7 @@ function SignUp() {
     <div>
       <form>
         <div>
-            <label htmlFor="lname">First Name</label>
-            <input type="text" value />
-            <br />
+            
             
         </div>
       </form>
