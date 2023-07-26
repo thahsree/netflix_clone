@@ -1,0 +1,10 @@
+.LoginMain{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    height: 750px;
+    width: 100%;
+}
+body{
+    background-color: aqua;
+}
