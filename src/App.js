@@ -1,21 +1,16 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 import Home from './pages/Home';
-import SignUp from './pages/signUp'
-import Login from './pages/login'
+import './app.css'
 function App() {
+
+  const [color , setColor] = useState("")
   return (
-    <div className="App">
+    <div style={{background:color}}>
       
       <Router>
         <Routes>
           <Route element={<Home/>} path='/' />
-        </Routes>
-        <Routes>
-          <Route element = {<SignUp/>} path = '/signup' />
-        </Routes>
-        <Routes>
-          <Route element ={<Login/>} path='/login' />
         </Routes>
       </Router>
       

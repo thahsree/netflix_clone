@@ -1,7 +1,6 @@
 import React from 'react'
-import NavBar from '../../src/components/navbar/navBar';
+import NavBar from '../components/navbar/NavBar';
 import { originals ,action ,romance } from '../../src/urls';
-import './Home.css'
 import Banner from '../../src/components/Banner/banner';
 import RowPost from '../../src/components/rowPost/rowPost';
 

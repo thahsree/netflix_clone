@@ -32,7 +32,9 @@ function RowPost(props) {
         }
       })
   }
-  
+  const handleCloseButtonClick = () => {
+    setUrlId(''); // Clear the video ID to hide the YouTube player
+  };
   
   return (
     <div className='row'>
@@ -43,7 +45,12 @@ function RowPost(props) {
         )}
        
       </div>
-    { urlId && <Youtube opts={opts} videoId={urlId.key}/>    }
+    { urlId && (
+      <div>
+        <Youtube opts={opts} videoId={urlId.key} />
+          <button className="close-btn" onClick={handleCloseButtonClick}>Close</button>
+      </div>
+    )    }
     </div>
   )
 }

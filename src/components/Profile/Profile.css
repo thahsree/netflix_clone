@@ -1,0 +1,14 @@
+.ProfileMain{
+
+    height: 850px;
+    background-color: beige;
+    width: 100%;
+    justify-content: center;
+}
+.ProfileSub{
+    height: 200px;
+    background-color: blue;
+    width: 200px;
+    margin-left: 600px;
+    
+}

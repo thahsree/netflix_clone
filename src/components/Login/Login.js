@@ -1,6 +1,7 @@
 import React , {useContext, useState } from 'react'
 import { FirebaseContext } from '../../Context/FirebaseContext'
 import { useNavigate } from 'react-router-dom'
+import './login.css'
 
 
 function Login() {
@@ -17,7 +18,7 @@ function Login() {
     }
   return (
     <div className='LoginMain'>
-      <div>
+      <div className='signUpParentDiv'>
         <form onSubmit={handleLogin}>
             <label>Email</label>
             <br/>
