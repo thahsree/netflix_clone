@@ -1,8 +1,8 @@
-import React from 'react'
-import NavBar from '../components/navbar/NavBar';
-import { originals ,action ,romance } from '../../src/urls';
+import React from 'react';
 import Banner from '../../src/components/Banner/banner';
-import RowPost from '../../src/components/rowPost/rowPost';
+import { action, originals, romance } from '../../src/urls';
+import NavBar from '../components/navbar/NavBar';
+import RowPost from '../components/rowPost/rowPost';
 
 
 function Home() {
